@@ -1,45 +1,18 @@
-/* .n1 {
-    font-size: 24px;
-    font-weight: bold;
-    background-color: #92c98d;
-    padding: 15px;
-    border-radius: 7px;
-} */
-
-
-/* .n1 a {
-    margin: 10px;
-    text-decoration: none;
-    color: white;
+.intro {
+    background-image: url(image.png);
+    background-size: cover;
+    color: rgb(29, 26, 26);
+    text-align: center;
+    padding: 100px 40px 100px;
+    margin-top: 90px;
 }
-
-.n1 ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    padding: 0;
-    margin: 0;
-}
-
-.n1 a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    transition: color 0.3s;
-}
-.n1 a:hover {
-    color: #ff0000;
-} */
-
-
-/* nav bar */
 
 body {
     margin: 0;
     padding: 0;
 }
 
-.n1 {
+.nav {
     background: linear-gradient(90deg, #2e8b57, #006400);
     color: white;
     text-align: center;
@@ -69,7 +42,6 @@ nav a:hover {
 .objetivos {
     display: flex;
     flex-direction: column;
-    justify-content: ;
     background: #e9f5e9;
     padding: 80px 20px;
     text-align: center;
@@ -78,7 +50,7 @@ nav a:hover {
 .cards {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 90px;
 }
 
 .card {
@@ -97,7 +69,7 @@ nav a:hover {
 
 .curiosidades {
     background: #c8e6c9;
-    padding: 60px 20px;
+    padding: 80px 40px;
     text-align: center;
 }
 

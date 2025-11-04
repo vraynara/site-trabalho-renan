@@ -1,0 +1,82 @@
+.nav {
+    background: linear-gradient(90deg, #2e8b57, #006400);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    margin: 0%;
+    border: 200px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #a5f3a5;
+}
+
+.objetivos {
+    display: flex;
+    flex-direction: column;
+    background: #e9f5e9;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+/* primeira parte dos cards */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.card {
+    background: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* segunda parte dos cards */
+.cards2 {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.card2 {
+    background: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+body {
+    background-color: #E9F5E9;
+}
+

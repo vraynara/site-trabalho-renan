@@ -6,6 +6,21 @@
     padding: 100px 40px 100px;
     margin-top: 90px;
     background-position: 0px -400px;
+    margin: 0%;
+    height: 600px;
+    
+}
+
+.inicio {
+    align-items: center;
+    margin-top: 150px;
+    font-size: 40px;
+}
+
+.inicio2 {
+    align-items: center;
+    margin-top: 20px;
+    font-size: 20px;
 }
 
 body {
@@ -22,6 +37,7 @@ body {
     top: 0;
     width: 100%;
     z-index: 10;
+    margin: 0%;
 }
 
 nav {

@@ -45,7 +45,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: rgb(255, 255, 255);
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
@@ -56,14 +56,6 @@ nav a:hover {
     color: #a5f3a5;
 }
 
-.objetivos {
-    display: flex;
-    flex-direction: column;
-    background: #e9f5e9;
-    padding: 80px 20px;
-    text-align: center;
-}
-
 .cards {
     display: flex;
     justify-content: center;
@@ -71,7 +63,7 @@ nav a:hover {
 }
 
 .card {
-    background: white;
+    background: rgb(150, 197, 123);
     width: 250px;
     padding: 20px;
     border-radius: 15px;
@@ -85,7 +77,7 @@ nav a:hover {
 }
 
 .curiosidades {
-    background: #c8e6c9;
+    background: #a7fdaa;
     padding: 80px 40px;
     text-align: center;
 }

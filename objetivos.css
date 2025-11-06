@@ -1,6 +1,9 @@
+/* cores do site  */
+/* fundo = #b0c9b0 */
+
 .nav {
     background: linear-gradient(90deg, #2e8b57, #006400);
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 15px 0;
     position: fixed;
@@ -24,13 +27,13 @@ nav a {
 }
 
 nav a:hover {
-    color: #a5f3a5;
+    color: #d0ffc6;
 }
 
 .objetivos {
     display: flex;
     flex-direction: column;
-    background: #e9f5e9;
+    background: #b0c9b0;
     padding: 80px 20px;
     text-align: center;
 }
@@ -77,6 +80,6 @@ nav a:hover {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 body {
-    background-color: #E9F5E9;
+    background-color: #b0c9b0;;
 }
 

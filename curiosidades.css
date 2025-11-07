@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background: linear-gradient(90deg, #2e8b57, #006400);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    margin: 0%;
+
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #a5f3a5;
+}

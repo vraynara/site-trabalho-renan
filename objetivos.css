@@ -1,5 +1,9 @@
 /* cores do site  */
 /* fundo = #b0c9b0 */
+*{
+    margin: 0;
+    padding: 0;
+}
 
 .nav {
     background: linear-gradient(90deg, #2e8b57, #006400);

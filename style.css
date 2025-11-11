@@ -119,3 +119,7 @@ footer {
 .icones a:hover {
     transform: rotate(15deg) scale(1.2);
 }
+
+.introdução {
+    background-color :rgb(202, 255, 205)
+}

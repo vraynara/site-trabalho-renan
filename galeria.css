@@ -1,0 +1,131 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+:root {
+    --verde: #a7fdaa;
+    --verde-escuro: #046a47;
+    --cinza: #333;
+}
+
+/* Cabeçalho */
+.hero {
+    background: linear-gradient(135deg, var(--verde), #c8ffe4);
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--cinza);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Conteúdo */
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.texto {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    border-left: 8px solid var(--verde);
+    box-shadow: 0 5px 12px rgba(0,0,0,0.1);
+    margin-bottom: 40px;
+}
+
+.texto h2 {
+    margin-bottom: 10px;
+    color: var(--verde-escuro);
+    font-size: 1.8rem;
+}
+
+.texto p {
+    margin-bottom: 15px;
+    line-height: 1.7;
+    color: #444;
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--verde-escuro);
+}
+
+/* Galeria */
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+}
+
+.foto {
+    overflow: hidden;
+    border-radius: 12px;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: transform .3s;
+}
+
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .4s ease;
+}
+
+.foto:hover img {
+    transform: scale(1.1);
+}
+
+.foto:hover {
+    transform: translateY(-5px);
+}
+
+/* Rodapé */
+footer {
+    background: var(--verde);
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    color: var(--cinza);
+    font-weight: bold;
+}
+
+.nav {
+    background: linear-gradient(90deg, #2e8b57, #006400);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    margin: 0%;
+    border: 200px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #d0ffc6;
+}

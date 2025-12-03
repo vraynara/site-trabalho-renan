@@ -28,10 +28,13 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
+    font-family: "Science Gothic", sans-serif;
+
 }
 
 nav a:hover {
     color: #d0ffc6;
+    border-bottom: 1px solid white;
 }
 
 .objetivos {
@@ -42,11 +45,15 @@ nav a:hover {
     text-align: center;
 }
 
-/* primeira parte dos cards */
+.objetivos h1,h3{
+    font-family: "Science Gothic", sans-serif;
+
+}
+
 .cards {
     display: flex;
-    justify-content: center;
-    gap: 90px;
+    justify-content: space-around;
+    gap: 25px;
     margin-top: 60px;
 }
 
@@ -59,6 +66,11 @@ nav a:hover {
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
+.card p{
+    margin-top: 8px;
+    font-family: "Poppins", sans-serif;
+}
+
 .card:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
@@ -67,8 +79,8 @@ nav a:hover {
 /* segunda parte dos cards */
 .cards2 {
     display: flex;
-    justify-content: center;
-    gap: 90px;
+    justify-content: space-around;
+    gap: 25px;
     margin-top: 60px;
 }
 
@@ -79,6 +91,11 @@ nav a:hover {
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card2 p{
+    margin-top: 8px;
+    font-family: "Poppins", sans-serif;
 }
 
 .card2:hover {

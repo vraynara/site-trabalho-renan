@@ -15,12 +15,14 @@
     align-items: center;
     margin-top: 150px;
     font-size: 40px;
+    font-family: "Science Gothic", sans-serif;
 }
 
 .inicio2 {
     align-items: center;
     margin-top: 20px;
     font-size: 20px;
+    font-family: "Science Gothic", sans-serif;
 }
 
 body {
@@ -50,10 +52,12 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
+    font-family: "Science Gothic", sans-serif;
 }
 
 nav a:hover {
     color: #a5f3a5;
+    border-bottom: 1px solid white;
 }
 
 .cards {

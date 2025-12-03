@@ -27,7 +27,7 @@ nav a:hover {
     color: #a5f3a5;
     border-bottom: 1px solid white;
 }
-/* RESET */
+
 * {
     margin: 0;
     padding: 0;
@@ -41,7 +41,6 @@ nav a:hover {
     --texto: #333;
 }
 
-/* TOPO */
 .topo {
     background: var(--verde);
     text-align: center;
@@ -64,7 +63,6 @@ nav a:hover {
     font-style: normal;
 }
 
-/* SEÇÃO INTRODUÇÃO */
 .intro {
     max-width: 900px;
     margin: 50px auto;
@@ -88,7 +86,6 @@ nav a:hover {
     font-style: normal;
 }
 
-/* LISTA DE CURIOSIDADES */
 .lista-curiosidades {
     max-width: 1000px;
     margin: 40px auto;
@@ -127,7 +124,6 @@ nav a:hover {
     font-style: normal;
 }
 
-/* RODAPÉ */
 .rodape {
     background: var(--verde);
     text-align: center;
